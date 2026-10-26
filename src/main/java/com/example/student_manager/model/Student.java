@@ -37,9 +37,7 @@ public class Student {
     private String phone; 
   
     @NotBlank(message = "Please select a course") 
-    private String course; 
-  
-9 
+    private String course;
  
     @NotNull(message = "Age is required") 
     @Min(value = 15, message = "Age must be at least 15") 
